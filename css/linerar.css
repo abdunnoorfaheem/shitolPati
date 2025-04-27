@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+height: 650px;
+background: linear-gradient(90deg,rgba(59, 178, 191, 1) 36%, rgba(37, 176, 120, 1) 87%);
+
+}
+.box{
+
+   height: 100%;
+   width: 100%;
+   position: relative;
+
+}
+
+.box1{
+    height: 250px;
+    width: 300px;
+    background: blue;
+    position: absolute;
+    z-index: 4;
+
+}
+.box2{
+    height: 250px;
+    width: 300px;
+    background: black;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 3;
+}
+.box3{
+    height: 250px;
+    width: 300px;
+    background: orange;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    z-index: 2;
+
+}

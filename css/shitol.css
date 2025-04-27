@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sitol{
+    height: 600px;
+    width: 900px;
+    
+    border: 6px solid rgb(151, 84, 2);    
+    margin: 40px auto;
+    box-shadow: 10px 0px 25px 0px;
+    background: #f0e79a;
+    border-radius: 5px;
+    
+    
+      background-image:
+        repeating-linear-gradient(45deg, #ff69b4 0 2px, transparent 2px 30px),
+        repeating-linear-gradient(-45deg, #32cd32 0 2px, transparent 2px 30px),
+        repeating-linear-gradient(45deg, #4169e1 0 2px, transparent 2px 60px),
+        repeating-linear-gradient(-45deg, #4169e1 0 2px, transparent 2px 60px);
+      background-size: 60px 60px;
+    z-index: 10;
+}
+
+.borderOne{
+    border: 4px dashed rgb(151, 84, 2);  
+    height: 550px;
+    width: 860px;
+    background-color: #f0e79a;
+    margin: 20px auto;
+ 
+
+}
+.borderTwo{
+    border: 4px dashed rgb(151, 84, 2);  
+    height: 520px;
+    width: 830px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partOne{
+    height: 500px;
+    width: 31%;
+    border: 3px dotted rgb(151, 84, 2);
+    margin-top: 6px;
+    margin-left: 5px;
+    position: relative;
+    
+}
+.partTwo{
+    height: 500px;
+    width: 31%;
+    border: 3px dotted rgb(151, 84, 2);
+    margin-top: 6px;
+    margin-left: 5px;
+    position: relative;
+
+}
+.partThree{
+    height: 500px;
+    width: 31%;
+    border: 3px dotted rgb(151, 84, 2);
+    margin-top: 6px;
+    margin-right: 5px;
+    position: relative;
+
+}
+
+.pBox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 25px;
+    width: 25px;
+    border: 2px dotted rgb(151, 84, 2);
+}
+
+.imgOne{
+position: absolute;
+top: 80px;
+z-index: 1;
+}
+.imgTwo{
+position: absolute;
+top: 80px;
+z-index: 1;
+}
+.imgThree{
+position: absolute;
+top: 80px;
+z-index: 1;
+}

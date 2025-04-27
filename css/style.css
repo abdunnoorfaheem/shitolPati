@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    background: rgba(42, 212, 212, 0.808);
+    padding: 300px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    position: relative;
+    display: inline-block;
+    
+    font-size: 2rem;
+  }
+  
+
+  h1::before {
+    content: "";
+    position: absolute;
+    -top: 20px;
+    left: 85%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: gold;
+  }
+
+  h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 18%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: gold;
+  }
+  
+
+  h1 .side-line::before,
+  h1 .side-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 4px;
+    background: gold;
+  }
+  
+  h1 .side-line::before {
+    left: -60px;
+  }
+  
+  h1 .side-line::after {
+    right: -60px;
+  }
+  
